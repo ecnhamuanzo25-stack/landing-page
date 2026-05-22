@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="./src/css/header.css">
     <link rel="stylesheet" href="./src/css/home.css">
     <link rel="stylesheet" href="./src/css/menu.css">
+    <link rel="stylesheet" href="./src/css/testimonials.css">
+    <link rel="stylesheet" href="./src/css/footer.css">
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
@@ -32,7 +34,7 @@
                 <a href="#menu">Cardapio</a>
             </li>
              <li class="nav-item active">
-                <a href="#testimunials">Avaliacoes</a>
+                <a href="#testimonials">Avaliações</a>
             </li>
          </ul>
          <button class="btn-default">
@@ -97,6 +99,7 @@
                  <a href="">
                     <i class="fa-brands fa-facebook"></i>
                  </a>
+            
              </div>
          </div>
 
@@ -113,11 +116,11 @@
                  <i class="fa-solid fa-heart"></i>
                </div>
 
-               <img src="src/imagens/pexels-jonathanborba-28559540.jpg" alt="" class="image-size">
+               <img src="src/imagens/pexels-jonathanborba-28559540.jpg" alt="" class="image-size  dish-image">
 
 
                <h3 class="dish-title">Doce Supimpa</h3>
-               <span>
+               <span class="dish-description">
                 Um pedacinho de felicidade em forma de doce!
                </span>
                <div class="dish-rate">
@@ -142,11 +145,11 @@
                  <i class="fa-solid fa-heart"></i>
                </div>
 
-               <img src="src/imagens/pexels-caio-niceas-2148806704-36616789.jpg" alt="" class="image-size">
+               <img src="src/imagens/pexels-caio-niceas-2148806704-36616789.jpg" alt="" class="image-size  dish-image">
 
 
                <h3 class="dish-title">Doce Supimpa</h3>
-               <span>
+               <span class="dish-description">
                 Um pedacinho de felicidade em forma de doce!
                </span>
                <div class="dish-rate">
@@ -171,11 +174,11 @@
                  <i class="fa-solid fa-heart"></i>
                </div>
 
-               <img src="src/imagens/pexels-pedrofurtadoo-33673805.jpg" alt="" class="image-size">
+               <img src="src/imagens/pexels-pedrofurtadoo-33673805.jpg" alt="" class="image-size dish-image">
 
 
                <h3 class="dish-title">Doce Supimpa</h3>
-               <span>
+               <span class="dish-description">
                 Um pedacinho de felicidade em forma de doce!
                </span>
                <div class="dish-rate">
@@ -200,11 +203,11 @@
                  <i class="fa-solid fa-heart"></i>
                </div>
 
-               <img src="src/imagens/pexels-beatriz-haiana-2154400330-34234277.jpg" alt="" class="image-size">
+               <img src="src/imagens/pexels-beatriz-haiana-2154400330-34234277.jpg" alt="" class="image-size  dish-image">
 
 
                <h3 class="dish-title">Doce Supimpa</h3>
-               <span>
+               <span class="dish-description">
                 Um pedacinho de felicidade em forma de doce!
                </span>
                <div class="dish-rate">
@@ -228,8 +231,106 @@
 
 
       </section>
-    </main>
+      <section id="testimonials">
+        <img src="src/imagens/chefe de cozinha.jpg"  id="testimonial_chef"class="chefe-size">
 
+        <div id="testimonials_content">
+            <h2 class="section-title">
+                Depoimentos
+            </h2>
+            <h3 class="section-subtitle">
+                O que os clientes falam sobre nós
+            </h3>
+            <div id="feedbacks">
+                <div class="feedback">
+                     <img src="src/imagens/avatar1 (4).jpg" class="avatar-img  feedback-avatar">
+                     <div class="feedback-content">
+                        <p>
+                          Ana Manjate
+                           <span>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </span>
+                        </p>
+                        <p>
+                          " A comida chegou super quente e muito saborosa.
+                           Definitivamente uma das melhores experiências que já tive."
+                        </p>
+                     </div>
+                  
+                </div>
+                <div class="feedback">
+                     <img src="src/imagens/avatar2 (2).jpg" class="avatar-img feedback-avatar">
+                    <div class="feedback-content">
+                        <p>
+                          Antonio Cossa
+                           <span>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </span>
+                        </p>
+                        <p>
+                         " Entrega rápida e atendimento excelente.
+                          O sabor estava simplesmente incrível.Voltarei mais vezes!"
+                        </p>
+                     </div>
+                   
+                </div>   
+                <div class="feedback">
+                        <img src="src/imagens/avatar3 (3).jpg" class="avatar-img  feedback-avatar">
+                       <div class="feedback-content">
+                        <p>
+                          Maria Clara
+                           <span>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                              <i class="fa-solid fa-star"></i>
+                           </span>
+                        </p>
+                        <p>
+                          "Os pratos vieram bem preparados e frescos.
+                           Dá para sentir a qualidade em cada detalhe"
+                        </p>
+                       </div>
+                </div>
+
+            </div>
+           <button class="btn-default">
+              Ver mais avaliações
+           </button>
+      
+        </div>
+      </section>
+   
+    </main>
+    <footer>
+      <div id="footer_items">
+         <span id="copyrigth">
+            &copy 2026 Elisa Cesário
+         </span>
+         
+         <div class="social-media-buttons">
+               <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+               </a>
+               <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+               </a>
+               <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+               </a>
+
+         </div>
+      </div>
+    </footer>
 
 
     <script src="/src/Javascript/script.js"></script>

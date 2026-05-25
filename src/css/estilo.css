@@ -17,6 +17,12 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth; /* scrool suave*/
+}
+
+
+
 body{
     background-color:#fff9ea ;
 

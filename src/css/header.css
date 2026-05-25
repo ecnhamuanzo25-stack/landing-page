@@ -35,10 +35,11 @@ header{
     border-bottom: 3px solid #ffe100;
 
 }
-#moblile_btn{
-    display:none;
-}
+
 #mobile_menu{
+    display: none;
+}
+#mobile_btn{
     display: none;
 }
 @media screen and (max-width: 1170px) {

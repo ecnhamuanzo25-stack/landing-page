@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <link rel="stylesheet" href="./src/css/estilo.css">
-    <link rel="stylesheet" href="./src/css/header.css">
-    <link rel="stylesheet" href="./src/css/home.css">
-    <link rel="stylesheet" href="./src/css/menu.css">
-    <link rel="stylesheet" href="./src/css/testimonials.css">
-    <link rel="stylesheet" href="./src/css/footer.css">
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <title>Landing Page</title>
-    <link>
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+   <link rel="stylesheet" href="./src/css/estilo.css">
+   <link rel="stylesheet" href="./src/css/header.css">
+   <link rel="stylesheet" href="./src/css/home.css">
+   <link rel="stylesheet" href="./src/css/menu.css">
+   <link rel="stylesheet" href="./src/css/testimonials.css">
+   <link rel="stylesheet" href="./src/css/footer.css">
+
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" crossorigin="anonymous"
+      referrerpolicy="no-referrer"></script>
+
+   <title>Landing Page</title>
+   <link>
 
 
 </head>
 
 
 <body>
-    <header>
-        <nav id="navbar">
+   <header>
+      <nav id="navbar">
          <i class="fa-solid fa-burger" id="nav_logo">FOOD</i>
 
 
          <ul id="nav_list">
-            <li class="nav-item active">
-                <a href="#home">Inicio</a>
+            <li class="nav-item ">
+               <a href="#home">Inicio</a>
             </li>
-             <li class="nav-item active">
-                <a href="#menu">Cardapio</a>
+            <li class="nav-item ">
+               <a href="#menu">Cardapio</a>
             </li>
-             <li class="nav-item active">
-                <a href="#testimonials">Avaliações</a>
+            <li class="nav-item ">
+               <a href="#testimonials">Avaliações</a>
             </li>
          </ul>
          <button class="btn-default">
@@ -43,77 +46,77 @@
          <button id="mobile_btn">
             <i class="fa-solid fa-bars"></i>
          </button>
-        </nav>
+      </nav>
 
-        <div id="mobile_menu">
-          
-             <ul id="mobile_nav_list">
-                 <li class="nav-item">
-                 <a href="#home">Inicio</a>
-                 </li>
-                 <li class="nav-item">
-                 <a href="#menu">Cardapio</a>
-                 </li>
-                 <li class="nav-item">
-                 <a href="#testimunials">Avaliacoes</a>
-                 </li>
-              </ul>
-               <button class="btn-default">
-                   Peça aqui
-               </button>
-          
-        </div>
+      <div id="mobile_menu">
+
+         <ul id="mobile_nav_list">
+            <li class="nav-item">
+               <a href="#home">Inicio</a>
+            </li>
+            <li class="nav-item">
+               <a href="#menu">Cardapio</a>
+            </li>
+            <li class="nav-item">
+               <a href="#testimonials">Avaliacoes</a>
+            </li>
+         </ul>
+         <button class="btn-default">
+            Peça aqui
+         </button>
+
+      </div>
 
 
 
-    </header>
-    <main id="content">
+   </header>
+   <main id="content">
       <section id="home">
-         <div class="shape"></div>  
-         <div id="cta" >
+         <div class="shape"></div>
+         <div id="cta">
             <h1 class="title">
-               O sabor vai até 
-               <span>você</span> 
+               O sabor vai até
+               <span>você</span>
             </h1>
-             <p>
-                Sabores irresistíveis preparados para tornar cada momento mais especial
-             </p>
-             <div id="cta_buttons">
-                <a href="#" class="btn-default">
-                    Ver Cardápio
-                </a>
-                <a href="tel:+258 844907372" id="phone_button">
-                    <button class="btn-default">
-                        <i class="fa-solid fa-phone"></i>
-                    </button>
-                    (+258) 844-907-372
-                </a>
-             </div>
-             <div class="social-media-buttons">
-                 <a href="">
-                    <i class="fa-brands fa-whatsapp"></i>
-                 </a>
-                 <a href="">
-                    <i class="fa-brands fa-instagram"></i>
-                 </a>
-                 <a href="">
-                    <i class="fa-brands fa-facebook"></i>
-                 </a>
-            
-             </div>
+            <p>
+               Sabores irresistíveis preparados para tornar cada momento mais especial
+            </p>
+            <div id="cta_buttons">
+               <a href="#" class="btn-default">
+                  Ver Cardápio
+               </a>
+               <a href="tel:+258 844907372" id="phone_button">
+                  <button class="btn-default">
+                     <i class="fa-solid fa-phone"></i>
+                  </button>
+                  (+258) 844-907-372
+               </a>
+            </div>
+            <div class="social-media-buttons">
+               <a href="">
+                  <i class="fa-brands fa-whatsapp"></i>
+               </a>
+               <a href="">
+                  <i class="fa-brands fa-instagram"></i>
+               </a>
+               <a href="">
+                  <i class="fa-brands fa-facebook"></i>
+               </a>
+
+            </div>
          </div>
 
          <div id="banner">
-             <img src="./src/imagens/foco.png" alt="">
+            <img src="./src/imagens/foco.png"  class="principal" alt="">
          </div>
       </section>
       <section id="menu">
-        <h2 class="section-title">Cardápio</h2>
-        <h3 class="section-subtitle">Nossos pratos especiais</h3>
-        <div id="dishes">
+         <h2 class="section-title">Cardápio</h2>
+         <h3 class="section-subtitle">Nossos pratos especiais</h3>
+         <div id="dishes">
             <div class="dish">
                <div class="dish-heart">
-                 <i class="fa-solid fa-heart"></i>
+                  <i class="fa-solid fa-heart"></i>
                </div>
 
                <img src="src/imagens/pexels-jonathanborba-28559540.jpg" alt="" class="image-size  dish-image">
@@ -121,28 +124,28 @@
 
                <h3 class="dish-title">Doce Supimpa</h3>
                <span class="dish-description">
-                Um pedacinho de felicidade em forma de doce!
+                  Um pedacinho de felicidade em forma de doce!
                </span>
                <div class="dish-rate">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <span>(500+)</span>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span>(500+)</span>
                </div>
-               
+
 
                <div class="dish-price">
-                <h4>440MZN</h4>
-                 <button class="btn-default">
-                    <i class="fa-solid fa-basket-shopping"></i>
-                 </button>
+                  <h4>440MZN</h4>
+                  <button class="btn-default">
+                     <i class="fa-solid fa-basket-shopping"></i>
+                  </button>
                </div>
-            </div>  
+            </div>
             <div class="dish">
                <div class="dish-heart">
-                 <i class="fa-solid fa-heart"></i>
+                  <i class="fa-solid fa-heart"></i>
                </div>
 
                <img src="src/imagens/pexels-caio-niceas-2148806704-36616789.jpg" alt="" class="image-size  dish-image">
@@ -150,28 +153,28 @@
 
                <h3 class="dish-title">Doce Supimpa</h3>
                <span class="dish-description">
-                Um pedacinho de felicidade em forma de doce!
+                  Um pedacinho de felicidade em forma de doce!
                </span>
                <div class="dish-rate">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <span>(500+)</span>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span>(500+)</span>
                </div>
-               
+
 
                <div class="dish-price">
-                <h4>440MZN</h4>
-                 <button class="btn-default">
-                    <i class="fa-solid fa-basket-shopping"></i>
-                 </button>
+                  <h4>440MZN</h4>
+                  <button class="btn-default">
+                     <i class="fa-solid fa-basket-shopping"></i>
+                  </button>
                </div>
-            </div>  
+            </div>
             <div class="dish">
                <div class="dish-heart">
-                 <i class="fa-solid fa-heart"></i>
+                  <i class="fa-solid fa-heart"></i>
                </div>
 
                <img src="src/imagens/pexels-pedrofurtadoo-33673805.jpg" alt="" class="image-size dish-image">
@@ -179,160 +182,162 @@
 
                <h3 class="dish-title">Doce Supimpa</h3>
                <span class="dish-description">
-                Um pedacinho de felicidade em forma de doce!
+                  Um pedacinho de felicidade em forma de doce!
                </span>
                <div class="dish-rate">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <span>(500+)</span>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span>(500+)</span>
                </div>
-               
+
 
                <div class="dish-price">
-                <h4>440MZN</h4>
-                 <button class="btn-default">
-                    <i class="fa-solid fa-basket-shopping"></i>
-                 </button>
+                  <h4>440MZN</h4>
+                  <button class="btn-default">
+                     <i class="fa-solid fa-basket-shopping"></i>
+                  </button>
                </div>
-            </div>  
+            </div>
             <div class="dish">
                <div class="dish-heart">
-                 <i class="fa-solid fa-heart"></i>
+                  <i class="fa-solid fa-heart"></i>
                </div>
 
-               <img src="src/imagens/pexels-beatriz-haiana-2154400330-34234277.jpg" alt="" class="image-size  dish-image">
+               <img src="src/imagens/pexels-beatriz-haiana-2154400330-34234277.jpg" alt=""
+                  class="image-size  dish-image">
 
 
                <h3 class="dish-title">Doce Supimpa</h3>
                <span class="dish-description">
-                Um pedacinho de felicidade em forma de doce!
+                  Um pedacinho de felicidade em forma de doce!
                </span>
                <div class="dish-rate">
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <span>(500+)</span>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <span>(500+)</span>
                </div>
-               
+
 
                <div class="dish-price">
-                <h4>440MZN</h4>
-                 <button class="btn-default">
-                    <i class="fa-solid fa-basket-shopping"></i>
-                 </button>
+                  <h4>440MZN</h4>
+                  <button class="btn-default">
+                     <i class="fa-solid fa-basket-shopping"></i>
+                  </button>
                </div>
-            </div>  
-        </div>
+            </div>
+         </div>
 
 
       </section>
       <section id="testimonials">
-        <img src="src/imagens/chefe de cozinha.jpg"  id="testimonial_chef"class="chefe-size">
+         <img src="src/imagens/chefe de cozinha.jpg" id="testimonial_chef" class="chefe-size">
 
-        <div id="testimonials_content">
+         <div id="testimonials_content">
             <h2 class="section-title">
-                Depoimentos
+               Depoimentos
             </h2>
             <h3 class="section-subtitle">
-                O que os clientes falam sobre nós
+               O que os clientes falam sobre nós
             </h3>
             <div id="feedbacks">
-                <div class="feedback">
-                     <img src="src/imagens/avatar1 (4).jpg" class="avatar-img  feedback-avatar">
-                     <div class="feedback-content">
-                        <p>
-                          Ana Manjate
-                           <span>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                           </span>
-                        </p>
-                        <p>
-                          " A comida chegou super quente e muito saborosa.
-                           Definitivamente uma das melhores experiências que já tive."
-                        </p>
-                     </div>
-                  
-                </div>
-                <div class="feedback">
-                     <img src="src/imagens/avatar2 (2).jpg" class="avatar-img feedback-avatar">
-                    <div class="feedback-content">
-                        <p>
-                          Antonio Cossa
-                           <span>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                           </span>
-                        </p>
-                        <p>
-                         " Entrega rápida e atendimento excelente.
-                          O sabor estava simplesmente incrível.Voltarei mais vezes!"
-                        </p>
-                     </div>
-                   
-                </div>   
-                <div class="feedback">
-                        <img src="src/imagens/avatar3 (3).jpg" class="avatar-img  feedback-avatar">
-                       <div class="feedback-content">
-                        <p>
-                          Maria Clara
-                           <span>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                              <i class="fa-solid fa-star"></i>
-                           </span>
-                        </p>
-                        <p>
-                          "Os pratos vieram bem preparados e frescos.
-                           Dá para sentir a qualidade em cada detalhe"
-                        </p>
-                       </div>
-                </div>
+               <div class="feedback">
+                  <img src="src/imagens/avatar1 (4).jpg" class="avatar-img  feedback-avatar">
+                  <div class="feedback-content">
+                     <p>
+                        Ana Manjate
+                        <span>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </span>
+                     </p>
+                     <p>
+                        " A comida chegou super quente e muito saborosa.
+                        Definitivamente uma das melhores experiências que já tive."
+                     </p>
+                  </div>
+
+               </div>
+               <div class="feedback">
+                  <img src="src/imagens/avatar2 (2).jpg" class="avatar-img feedback-avatar">
+                  <div class="feedback-content">
+                     <p>
+                        Antonio Cossa
+                        <span>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </span>
+                     </p>
+                     <p>
+                        " Entrega rápida e atendimento excelente.
+                        O sabor estava simplesmente incrível.Voltarei mais vezes!"
+                     </p>
+                  </div>
+
+               </div>
+               <div class="feedback">
+                  <img src="src/imagens/avatar3 (3).jpg" class="avatar-img  feedback-avatar">
+                  <div class="feedback-content">
+                     <p>
+                        Maria Clara
+                        <span>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                           <i class="fa-solid fa-star"></i>
+                        </span>
+                     </p>
+                     <p>
+                        "Os pratos vieram bem preparados e frescos.
+                        Dá para sentir a qualidade em cada detalhe"
+                     </p>
+                  </div>
+               </div>
 
             </div>
-           <button class="btn-default">
-              Ver mais avaliações
-           </button>
-      
-        </div>
+            <button class="btn-default">
+               Ver mais avaliações
+            </button>
+
+         </div>
       </section>
-   
-    </main>
-    <footer>
+
+   </main>
+   <footer>
       <div id="footer_items">
          <span id="copyrigth">
             &copy 2026 Elisa Cesário
          </span>
-         
+
          <div class="social-media-buttons">
-               <a href="">
-                    <i class="fa-brands fa-whatsapp"></i>
-               </a>
-               <a href="">
-                    <i class="fa-brands fa-instagram"></i>
-               </a>
-               <a href="">
-                    <i class="fa-brands fa-facebook"></i>
-               </a>
+            <a href="">
+               <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="">
+               <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="">
+               <i class="fa-brands fa-facebook"></i>
+            </a>
 
          </div>
       </div>
-    </footer>
+   </footer>
 
 
-    <script src="/src/Javascript/script.js"></script>
+   <script src="/src/Javascript/script.js"></script>
 </body>
+
 </html>
